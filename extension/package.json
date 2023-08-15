@@ -1,0 +1,26 @@
+{
+	"name": "@modelscript/vscode-modelscript-extension",
+	"version": "0.0.1",
+	"description": "A Visual Studio Code extension for the ModelScript language",
+	"author": {
+		"email": "mnachawa@gmail.com",
+		"name": "Mohamad Omar Nachawati",
+		"url": "https://nachawati.me"
+	},
+	"license": "ISC",
+	"publisher": "nachawati",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/modelscript/vscode-modelscript"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^7.0.0"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0",
+		"@vscode/test-web": "^0.0.22"
+	}
+}

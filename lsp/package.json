@@ -1,0 +1,24 @@
+{
+	"name": "@modelscript/vscode-modelscript-lsp",
+	"description": "Language server for the ModelScript language",
+	"version": "0.0.1",
+	"author": {
+		"email": "mnachawa@gmail.com",
+		"name": "Mohamad Omar Nachawati",
+		"url": "https://nachawati.me"
+	},
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/modelscript/vscode-modelscript"
+	},
+	"dependencies": {
+		"@modelscript/modelscript": "file:../../modelscript",
+		"@modelscript/tree-sitter-modelscript": "file:../../tree-sitter-modelscript",
+		"tree-sitter": "^0.20.5",
+		"vscode-languageserver": "^7.0.0",
+		"vscode-languageserver-textdocument": "^1.0.1",
+		"web-tree-sitter": "^0.20.8"
+	},
+	"scripts": {}
+}
